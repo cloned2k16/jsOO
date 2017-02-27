@@ -1,7 +1,9 @@
 "use strict";
 
-    Object.prototype.extends    = function (parent) {
-        var oo  =   this.prototype.constructor
+module.exports = {
+    
+    extnds  : function (parent) {
+        var oo  = this.prototype.constructor
 
         oo.prototype              = Object.create(parent.prototype);                                    //  just protoype stuff !
         oo.prototype.constructor  = oo;                                                                 //  fix misplaced constructor
@@ -11,3 +13,4 @@
             th.className    =   oo.name; 
         }
     }
+};

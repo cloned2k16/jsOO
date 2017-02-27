@@ -1,0 +1,30 @@
+{
+        "name"              :   "jsOO"
+    ,   "version"           :   "0.0.1"
+    ,   "description"       :   "minimalist framework to emulate Clasic Object Oriented"
+    ,   "license"           :   "CC-BY-NC-4.0"
+    ,   "readmeFilename"    :   "README.md"
+    ,   "keywords"          :   [
+                                    "Object Oriented"
+                            ,       "OO"
+                            ,       "Inheritance"
+                            ,       "Encapsulation"
+                            ]
+    ,   "bugs"              :   {
+                                    "url"               :   "https://github.com/cloned2k16/jsOO/issues"
+                            }
+    ,   "dependencies"      :   {   "string_prototypes" :   ""}
+    ,   "devDependencies"   :   {
+                                    "tape"              :   "~4.5.1"
+                                }
+    ,   "repository"        :   {
+                                    "type"              :   "git"
+                                ,   "url"               :   "git@github.com:cloned2k16/jsOO.git"
+                                
+                            }
+    ,   "main"              :   "index.js"
+    ,   "scripts"           :   {
+                                    "test"              :   "node test/all"
+                            }
+    ,   "author"            :   "Paolo Lioy"
+}
